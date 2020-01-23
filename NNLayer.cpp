@@ -66,6 +66,12 @@ void NNLayer::print() const {
 	b->print();
 }
 
+
+Mat* getWeights() const {
+	return w;
+}
+
+
 NNLayer::~NNLayer() {
 	if (_x != 0) {
 		delete _x;

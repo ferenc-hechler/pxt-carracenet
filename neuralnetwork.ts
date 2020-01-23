@@ -25,5 +25,12 @@ namespace nn {
     	basic.showString("sim-predict")
         return
     }
-
+    
+    //% blockId=nn_initcarracenet
+    //% block="Init Car Race Net"
+    //% shim=nn::initcarracenet
+    export function initcarracenet(): void {
+    	basic.showString("sim-initcarracenet")
+        return
+    }
 }

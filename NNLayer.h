@@ -25,6 +25,8 @@ public:
 
 	void print() const;
 
+	Mat* getWeights() const;
+
 	~NNLayer();
 };
 

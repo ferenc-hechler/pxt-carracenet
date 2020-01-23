@@ -93,5 +93,15 @@ namespace nn {
 	}
 
 
+	//% blockId=nn_initcarracenet
+	//% block="Init Car Race Net"
+	//% shim=nn::initcarracenet
+	void initcarracenet() {
+		brain->print();
+		brain->init_car_race_net();
+		brain->print();
+	}
+
+
 
 }
